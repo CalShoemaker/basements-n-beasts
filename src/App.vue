@@ -1,13 +1,18 @@
 <template>
-  <Game />
+  <div>
+    <google-map />
+    <Game />
+  </div>
 </template>
 
 
 <script>
 import Game from '@/components/Game'
+import GoogleMap from "./components/GoogleMap";
+
 export default {
   name: 'App',
-  components: { Game }
+  components: { Game,GoogleMap }
 }
 </script>
 
